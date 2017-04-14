@@ -1,6 +1,3 @@
-/**
- * Created by wwtliu on 14/12/30.
- */
 Dijkstra = function () {
     function addEdge(source, target, weight) {
         if (!(source in graph)) graph[source] = {};
